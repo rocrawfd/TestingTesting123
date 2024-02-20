@@ -3,3 +3,5 @@ if(know || mightKnow && !dunno){
 return true}
 return false
 }
+
+console.log(helpMeLearn(true, true, true))
