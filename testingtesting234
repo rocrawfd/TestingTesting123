@@ -1,5 +1,5 @@
-function helpMeLearn (know, dunno){
-if(know && !dunno){
+function helpMeLearn (know, dunno, mightKnow){
+if(know || mightKnow && !dunno){
 return true}
 return false
 }
